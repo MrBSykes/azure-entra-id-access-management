@@ -54,12 +54,4 @@ users = {
     employee_type = "Volunteer"
     groups        = ["sg-dev-contributors"]
   }
-  "connor.blake" = {
-    display_name    = "Connor Blake (lab)"
-    job_title       = "Contractor"
-    department      = "Technology"
-    employee_type   = "Contractor"
-    account_enabled = false
-    groups          = ["sg-dev-readers"]
-  }
 }
