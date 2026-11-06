@@ -151,20 +151,47 @@ I signed in as the developer (Devon Carter, `sg-dev-contributors`, Contributor o
 
 ## Screenshots
 
-| # | File | What it shows |
-|---|---|---|
-| 01 | `01-entra-users-list.png` | The five lab users plus my admin account |
-| 02 | `02-group-members-sg-dev-readers.png` | A security group with its members |
-| 03 | `03-dev-rg-role-assignments.png` | Group-based roles on `dev-rg` |
-| 04 | `04-prod-rg-role-assignments-no-write.png` | `prod-rg` has only Reader and the inherited cost role |
-| 05 | `05-users-after-leaver-connor-removed.png` | Five users after the leaver step |
-| 06 | `06-deleted-users-connor-recoverable.png` | The removed user is recoverable for 30 days |
-| 07 | `07-devon-sees-only-dev-rg.png` | The developer sees only `dev-rg` |
-| 08 | `08-devon-denied-create-permission.png` | The developer cannot create resource groups |
-| 09 | `09-devon-can-create-in-dev-rg.png` | The developer can build inside `dev-rg` |
-| 10 | `10-devon-check-access-prod-rg-zero.png` | Check access: no assignments on `prod-rg` |
-
 Tenant domain, subscription ID and my own account details are redacted in every screenshot.
+
+### 01. Entra ID users: the five lab users plus my admin account
+
+![Entra ID users: the five lab users plus my admin account](screenshots/01-entra-users-list.png)
+
+### 02. A security group (`sg-dev-readers`) with its members
+
+![A security group (sg-dev-readers) with its members](screenshots/02-group-members-sg-dev-readers.png)
+
+### 03. Group-based roles on `dev-rg`
+
+![Group-based roles on dev-rg](screenshots/03-dev-rg-role-assignments.png)
+
+### 04. `prod-rg` has only Reader and the inherited cost role: no group can write to prod
+
+![prod-rg has only Reader and the inherited cost role: no group can write to prod](screenshots/04-prod-rg-role-assignments-no-write.png)
+
+### 05. Five users remain after the leaver step
+
+![Five users remain after the leaver step](screenshots/05-users-after-leaver-connor-removed.png)
+
+### 06. The removed user is recoverable from Deleted users for 30 days
+
+![The removed user is recoverable from Deleted users for 30 days](screenshots/06-deleted-users-connor-recoverable.png)
+
+### 07. Signed in as the developer: only `dev-rg` is visible
+
+![Signed in as the developer: only dev-rg is visible](screenshots/07-devon-sees-only-dev-rg.png)
+
+### 08. The developer is denied creating a resource group at subscription level
+
+![The developer is denied creating a resource group at subscription level](screenshots/08-devon-denied-create-permission.png)
+
+### 09. The developer can start building inside `dev-rg` (Create was not clicked)
+
+![The developer can start building inside dev-rg (Create was not clicked)](screenshots/09-devon-can-create-in-dev-rg.png)
+
+### 10. Check access on `prod-rg` for the developer: no role or deny assignments
+
+![Check access on prod-rg for the developer: no role or deny assignments](screenshots/10-devon-check-access-prod-rg-zero.png)
 
 ---
 
