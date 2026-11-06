@@ -151,47 +151,20 @@ I signed in as the developer (Devon Carter, `sg-dev-contributors`, Contributor o
 
 ## Screenshots
 
+| # | Screenshot | What it shows |
+|---|---|---|
+| 01 | <img src="screenshots/01-entra-users-list.png" width="420" alt="01-entra-users-list.png"> | **The five lab users plus my admin account**<br>`01-entra-users-list.png` |
+| 02 | <img src="screenshots/02-group-members-sg-dev-readers.png" width="420" alt="02-group-members-sg-dev-readers.png"> | **A security group with its members**<br>`02-group-members-sg-dev-readers.png` |
+| 03 | <img src="screenshots/03-dev-rg-role-assignments.png" width="420" alt="03-dev-rg-role-assignments.png"> | **Group-based roles on `dev-rg`**<br>`03-dev-rg-role-assignments.png` |
+| 04 | <img src="screenshots/04-prod-rg-role-assignments-no-write.png" width="420" alt="04-prod-rg-role-assignments-no-write.png"> | **`prod-rg` has only Reader and the inherited cost role**<br>`04-prod-rg-role-assignments-no-write.png` |
+| 05 | <img src="screenshots/05-users-after-leaver-connor-removed.png" width="420" alt="05-users-after-leaver-connor-removed.png"> | **Five users after the leaver step**<br>`05-users-after-leaver-connor-removed.png` |
+| 06 | <img src="screenshots/06-deleted-users-connor-recoverable.png" width="420" alt="06-deleted-users-connor-recoverable.png"> | **The removed user is recoverable for 30 days**<br>`06-deleted-users-connor-recoverable.png` |
+| 07 | <img src="screenshots/07-devon-sees-only-dev-rg.png" width="420" alt="07-devon-sees-only-dev-rg.png"> | **The developer sees only `dev-rg`**<br>`07-devon-sees-only-dev-rg.png` |
+| 08 | <img src="screenshots/08-devon-denied-create-permission.png" width="420" alt="08-devon-denied-create-permission.png"> | **The developer cannot create resource groups**<br>`08-devon-denied-create-permission.png` |
+| 09 | <img src="screenshots/09-devon-can-create-in-dev-rg.png" width="420" alt="09-devon-can-create-in-dev-rg.png"> | **The developer can build inside `dev-rg`**<br>`09-devon-can-create-in-dev-rg.png` |
+| 10 | <img src="screenshots/10-devon-check-access-prod-rg-zero.png" width="420" alt="10-devon-check-access-prod-rg-zero.png"> | **Check access: no assignments on `prod-rg`**<br>`10-devon-check-access-prod-rg-zero.png` |
+
 Tenant domain, subscription ID and my own account details are redacted in every screenshot.
-
-### 01. Entra ID users: the five lab users plus my admin account
-
-![Entra ID users: the five lab users plus my admin account](screenshots/01-entra-users-list.png)
-
-### 02. A security group (`sg-dev-readers`) with its members
-
-![A security group (sg-dev-readers) with its members](screenshots/02-group-members-sg-dev-readers.png)
-
-### 03. Group-based roles on `dev-rg`
-
-![Group-based roles on dev-rg](screenshots/03-dev-rg-role-assignments.png)
-
-### 04. `prod-rg` has only Reader and the inherited cost role: no group can write to prod
-
-![prod-rg has only Reader and the inherited cost role: no group can write to prod](screenshots/04-prod-rg-role-assignments-no-write.png)
-
-### 05. Five users remain after the leaver step
-
-![Five users remain after the leaver step](screenshots/05-users-after-leaver-connor-removed.png)
-
-### 06. The removed user is recoverable from Deleted users for 30 days
-
-![The removed user is recoverable from Deleted users for 30 days](screenshots/06-deleted-users-connor-recoverable.png)
-
-### 07. Signed in as the developer: only `dev-rg` is visible
-
-![Signed in as the developer: only dev-rg is visible](screenshots/07-devon-sees-only-dev-rg.png)
-
-### 08. The developer is denied creating a resource group at subscription level
-
-![The developer is denied creating a resource group at subscription level](screenshots/08-devon-denied-create-permission.png)
-
-### 09. The developer can start building inside `dev-rg` (Create was not clicked)
-
-![The developer can start building inside dev-rg (Create was not clicked)](screenshots/09-devon-can-create-in-dev-rg.png)
-
-### 10. Check access on `prod-rg` for the developer: no role or deny assignments
-
-![Check access on prod-rg for the developer: no role or deny assignments](screenshots/10-devon-check-access-prod-rg-zero.png)
 
 ---
 
